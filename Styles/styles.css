@@ -1,0 +1,83 @@
+body {
+    background-image: url(../Bilder/BackRubber.jpg);
+    background-attachment: fixed;
+}
+
+.screen{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+
+.forum {
+	max-width: 500px;
+	width: 100%;
+	min-height: 500px;
+    padding: 15px 20px;
+    background-color: #e6fa34e5;
+	border-radius: 5px;
+	box-shadow: 2px 2px 8px #44433b;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+    justify-content: end;
+    margin-right: 150px;
+ 
+}
+.forum-title{
+    font-family: 'Sacramento', cursive;
+}
+
+.forum-info{
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 20px;
+}
+
+.label {
+	display: block;
+	font-size: 12px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	background-color: rgb(6, 155, 255);
+	padding: 4px 7px;
+	color: #ffffff;
+	box-shadow: 0 1px 2px #000000;
+}
+
+.input-field {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 32px;
+	margin-bottom: 10px;
+	background-color: rgb(250, 150, 35);
+	padding-left: 7px;
+}
+
+.button {
+	width: 100%;
+	height: 36px;
+	box-sizing: border-box;
+	margin-top: 40px;
+	border-radius: 10px;
+	border: none;
+	background-color: rgba(70, 96, 96, 1);
+	color: #dfdfdc;
+	box-shadow: 1px 1px 4px #000000;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.button:hover {
+	background-color: rgba(237, 177, 201, 1);
+	color: rgba(70, 96, 96, 1);
+}
+
+.button:disabled {
+	background-color: #dfdfdc;
+	color: rgba(70, 96, 96, 1);
+	opacity: 0.6;
+}
+
